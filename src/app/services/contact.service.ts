@@ -10,7 +10,7 @@ import { IGroup } from '../models/IGroup';
 export class ContactService {
 
   private serverUrl: string = `http://localhost:9000`; //json-server url
-
+  
   constructor(private httpClient: HttpClient) { }
 
   // GET All Contacts

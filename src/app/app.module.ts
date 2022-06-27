@@ -14,6 +14,7 @@ import { PageNotFoundComponent } from "./components/page-not-found/page-not-foun
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from "@angular/forms";
 import { HelloWorldComponent } from "./hello-world/hello-world.component";
+import { BishenComponent } from './bishen/bishen.component';
 
 const routerConfig: ExtraOptions = {
 	preloadingStrategy: PreloadAllModules,
@@ -31,6 +32,7 @@ const routerConfig: ExtraOptions = {
 		SpinnerComponent,
 		PageNotFoundComponent,
 		HelloWorldComponent,
+  BishenComponent,
 	],
 	imports: [BrowserModule, RouterModule.forRoot(appRoutes, routerConfig), HttpClientModule, FormsModule],
 	providers: [],

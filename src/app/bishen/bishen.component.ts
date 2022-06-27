@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-bishen',
-  templateUrl: './bishen.component.html',
-  styleUrls: ['./bishen.component.scss']
+	selector: "app-bishen",
+	templateUrl: "./bishen.component.html",
+	styleUrls: ["./bishen.component.scss"],
 })
 export class BishenComponent implements OnInit {
+	constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+	ngOnInit(): void {}
 }
